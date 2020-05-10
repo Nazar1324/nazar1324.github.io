@@ -12,34 +12,13 @@
   background-size: cover; 
 
 }
-header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 20px 50px;
-}
-nav {
-  color: #fff;
-}
-nav ul {
-  display: flex;
-  list-style: none;
-}
-nav ul li {
-  padding: 10px;
-}
 
-.right {
-  margin-left: auto;
-}
-nav a,
-nav a:visited {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
-}
 
-/* header-section */
+
+
+
+
+
 .header-section {
   display: flex;
   flex-direction: column;
@@ -55,52 +34,10 @@ nav a:visited {
   font-size: 32px;
 }
 
-.header-section button {
-  width: auto;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #2196f3;
-  color: #fff;
-  font-size: 20px;
-  margin-top: 20px;
-  border: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
 
-/* second section */
 
-.second-section {
-  padding: 70px 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.second-section h4 {
-  text-align: center;
-  line-height: 24px;
-  padding: 26px;
-}
-.second-section .underline-block {
-  width: 150px;
-  height: 2px;
-  background-color: blue;
-}
-.photo-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  list-style: none;
-}
 
-.photo-list li {
-  margin: 10px;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
 .wikitable {
   background-color: beige;
   color: #4a2fe4;
@@ -113,8 +50,8 @@ th {
   padding: 20px;
 }
 table, th, td {
-    border: 1px solid black;
-  }
+  border: 3px solid black;
+}
 .footer {
   color: rgb(255, 0, 0);
   margin-top: 50px;
@@ -122,13 +59,9 @@ table, th, td {
   width: 100%;
   text-align: center;
 } 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+
 .footer2{
-  background-image: url(img/mountain.jpg);
+  background-image: url(img/10.jpg);
   height: 20vh;
   width: 100%;
   background-size: cover; 
